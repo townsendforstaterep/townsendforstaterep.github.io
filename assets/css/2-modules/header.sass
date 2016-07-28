@@ -1,0 +1,123 @@
+header
+  background-color: $secondary-blue
+  border-bottom: 1px solid rgba(0,0,0,0.1)
+
+.header-container
+  padding-top: 10px
+  +outer-container(90%)
+
+  +media($screen)
+    padding: 10px 0
+
+.logo
+  +media($mobile)
+    padding: 10px 0
+  a
+    color: white
+  img
+    float: left
+    width: 300px
+    +media($mobile)
+      width: 250px
+
+#mobile-menu-button
+  display: block
+  float: right
+  margin-top: 10%
+
+  +media($screen)
+    display: none
+
+  +media($tablet)
+    margin-top: 5%
+
+#navbar
+  float: none
+  margin-top: 0
+
+  +media($screen)
+    float: right
+    margin-top: 45px
+
+  +media($tablet)
+    position: relative
+    clear: both
+
+  +media($mobile)
+    position: relative
+    clear: both
+
+ul.nav-menu
+  list-style: none
+  position: absolute
+  float: left
+  margin: 0
+  padding: 0
+
+  +media($screen)
+    position: relative
+
+  +media($tablet)
+    right: 0
+    width: 100%
+    display: none
+
+  +media($mobile)
+    right: 0
+    width: 100%
+    display: none
+    background-color: white
+
+  &.show
+    display: block
+
+  a
+    display: block
+    color: white
+    text-decoration: none
+    font-weight: 700
+    line-height: 32px
+    padding: 0 15px
+    font-size: 1.5em
+    text-transform: uppercase
+
+    &:hover
+      color: $primary-blue
+
+    +media($screen)
+      font-size: 1.28em
+
+    +media($mobile)
+      color: $primary-blue
+
+ul li.nav-link
+  position: relative
+  display: inline-block
+  margin: 0
+  padding: 0
+
+  +media($tablet)
+    display: block
+    text-align: right
+
+    ul
+      position: static
+
+  +media($mobile)
+    display: block
+    text-align: right
+
+    ul
+      position: static
+
+#donate
+  text-align: center
+  color: white
+  background: $donate-red
+
+  +media($screen)
+    background-color: $donate-red
+    transition: background-color .15s
+
+    &:hover
+      background-color: darken($donate-red, 10%)
