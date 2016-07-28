@@ -58,7 +58,7 @@
 
 
 .home-signup
-  background-color: $secondary-blue
+  background-color: darken($primary-blue, 10%)
   padding: 15px 75px
   overflow: auto
   width: 100%
@@ -131,68 +131,33 @@
 
 .home-text
   font-size: 16px
+  +span-columns(4)
+
+  +media($tablet)
+    +span-columns(8)
 
   +media($mobile)
     font-size: 14px
+    +span-columns(4)
 
-.home-text, .home-social
-  +span-columns(6)
+
+.home-social
+  +span-columns(8)
+  +media($tablet)
+    +span-columns(8)
   +media($mobile)
     +span-columns(4)
-  +media($tablet)
-    +span-columns(4)
 
-.home-cta-left, .home-cta-right
-  a:hover
-    color: white
-    transition: background-color .15s
-
-.social-container
-  +media($screen)
-    +span-columns(3 of 6)
-    +shift(1)
-
-.home-cta-button
-  padding: 5px
-  font-size: 16px
-  text-transform: uppercase
-  font-weight: 700
-
-.home-cta-button, .home-fb, .home-tw
-  margin-top: 20px
-  height: 35px
+.social-twitter, .social-facebook
   text-align: center
-  color: white
-  +media($screen)
-    +span-columns(3 of 6)
+  +span-columns(4 of 8)
   +media($tablet)
-    +span-columns(4 of 4)
+    +span-columns(8)
   +media($mobile)
-    +span-columns(4 of 4)
-
-
-.volunteer
-  background-color: $primary-blue
-  &:hover
-    background-color: darken($primary-blue, 10%)
-
-.donate
-  background-color: $donate-red
-  &:hover
-    background-color: darken($donate-red, 10%)
-
-.home-fb, .home-tw
-  font-size: 20px
-
-.home-fb
-  background-color: $facebook-blue
-  &:hover
-    background-color: darken($facebook-blue, 10%)
-
-.home-tw
-  background-color: $twitter-blue
-  &:hover
-    background-color: darken($twitter-blue, 10%)
+    +span-columns(4)
+    text-align: center
+    padding: 10px 15px
+    width: 100%
 
 .body-column
 	padding: 20px 10px
@@ -228,25 +193,3 @@
   &:hover
     background-color: $donate-red
     color: #fff
-
-.social-container
-  +media($screen)
-    +span-columns(8)
-  +media($tablet)
-    +span-columns(8)
-    width: 100%
-    padding-top: 20px
-
-#facebook, #twitter
-  text-align: center
-  +media($screen)
-    +span-columns(4 of 8)
-
-  +media($tablet)
-    +span-columns(4 of 8)
-
-  +media($mobile)
-    +span-columns(4)
-    text-align: center
-		padding: 10px 15px
-    width: 100%
