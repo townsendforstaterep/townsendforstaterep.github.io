@@ -1,4 +1,4 @@
-Cyndi Skellie For State Representative
+Jim Townsend For State Representative
 =============================
 
 Code for Campaign Website
