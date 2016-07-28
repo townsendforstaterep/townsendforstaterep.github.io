@@ -926,12 +926,12 @@ footer {
       background-color: #d2161d; }
 
 .hero-image.bio-image {
-  background-image: -webkit-linear-gradient(rgba(22, 26, 76, 0.35), rgba(22, 26, 76, 0.35)), url(/assets/img/ridleyandtownsend2.jpg);
-  background-image: linear-gradient(rgba(22, 26, 76, 0.35), rgba(22, 26, 76, 0.35)), url(/assets/img/ridleyandtownsend2.jpg);
-  background-position: 0 35%; }
+  background-image: -webkit-linear-gradient(rgba(22, 26, 76, 0.35), rgba(22, 26, 76, 0.35)), url(/assets/img/jimcarol2.jpg);
+  background-image: linear-gradient(rgba(22, 26, 76, 0.35), rgba(22, 26, 76, 0.35)), url(/assets/img/jimcarol2.jpg);
+  background-position: 0 16%; }
   @media screen and (max-width: 600px) {
     .hero-image.bio-image {
-      background-position: 40% 35%; } }
+      background-position: 33% 16%; } }
 
 #bio-text {
   max-width: 90%;
@@ -954,12 +954,13 @@ footer {
         display: table; } }
 
 .hero-image.issues-image {
-  background-image: -webkit-linear-gradient(rgba(22, 26, 76, 0.45), rgba(22, 26, 76, 0.45)), url(/assets/img/crowd.jpg);
-  background-image: linear-gradient(rgba(22, 26, 76, 0.45), rgba(22, 26, 76, 0.45)), url(/assets/img/crowd.jpg);
+  background-image: -webkit-linear-gradient(rgba(22, 26, 76, 0.35), rgba(22, 26, 76, 0.35)), url(/assets/img/steps.jpg);
+  background-image: linear-gradient(rgba(22, 26, 76, 0.35), rgba(22, 26, 76, 0.35)), url(/assets/img/steps.jpg);
   background-position: center; }
   @media screen and (min-width: 769px) {
     .hero-image.issues-image {
-      padding: 6em 0; } }
+      padding: 6em 0;
+      background-position: 0 20%; } }
 
 #issues-container {
   max-width: 90%;
@@ -1086,7 +1087,7 @@ footer {
     padding: 0 10px; } }
 
 .home-signup {
-  background-color: #161a4c;
+  background-color: #004a8a;
   padding: 15px 75px;
   overflow: auto;
   width: 100%; }
@@ -1167,108 +1168,82 @@ footer {
     display: table; }
 
 .home-text {
-  font-size: 16px; }
-  @media screen and (max-width: 600px) {
-    .home-text {
-      font-size: 14px; } }
-
-.home-text, .home-social {
+  font-size: 16px;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
-  .home-text:last-child, .home-social:last-child {
+  width: 31.76157%; }
+  .home-text:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 600px) {
-    .home-text, .home-social {
-      float: left;
-      display: block;
-      margin-right: 7.42297%;
-      width: 100%; }
-      .home-text:last-child, .home-social:last-child {
-        margin-right: 0; } }
   @media screen and (min-width: 601px) and (max-width: 768px) {
-    .home-text, .home-social {
+    .home-text {
       float: left;
       display: block;
       margin-right: 3.57866%;
-      width: 48.21067%; }
-      .home-text:last-child, .home-social:last-child {
-        margin-right: 0; } }
-
-.home-cta-left a:hover, .home-cta-right a:hover {
-  color: white;
-  -webkit-transition: background-color 0.15s;
-          transition: background-color 0.15s; }
-
-@media screen and (min-width: 769px) {
-  .social-container {
-    float: left;
-    display: block;
-    margin-right: 4.82916%;
-    width: 47.58542%;
-    margin-left: 17.47153%; }
-    .social-container:last-child {
-      margin-right: 0; } }
-
-.home-cta-button {
-  padding: 5px;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 700; }
-
-.home-cta-button, .home-fb, .home-tw {
-  margin-top: 20px;
-  height: 35px;
-  text-align: center;
-  color: white; }
-  @media screen and (min-width: 769px) {
-    .home-cta-button, .home-fb, .home-tw {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 47.58542%; }
-      .home-cta-button:last-child, .home-fb:last-child, .home-tw:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 601px) and (max-width: 768px) {
-    .home-cta-button, .home-fb, .home-tw {
-      float: left;
-      display: block;
-      margin-right: 7.42297%;
       width: 100%; }
-      .home-cta-button:last-child, .home-fb:last-child, .home-tw:last-child {
+      .home-text:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 600px) {
-    .home-cta-button, .home-fb, .home-tw {
+    .home-text {
+      font-size: 14px;
       float: left;
       display: block;
       margin-right: 7.42297%;
       width: 100%; }
-      .home-cta-button:last-child, .home-fb:last-child, .home-tw:last-child {
+      .home-text:last-child {
         margin-right: 0; } }
 
-.volunteer {
-  background-color: #0065bd; }
-  .volunteer:hover {
-    background-color: #004a8a; }
+.home-social {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .home-social:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    .home-social {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%; }
+      .home-social:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 600px) {
+    .home-social {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      .home-social:last-child {
+        margin-right: 0; } }
 
-.donate {
-  background-color: #a41117; }
-  .donate:hover {
-    background-color: #760c11; }
-
-.home-fb, .home-tw {
-  font-size: 20px; }
-
-.home-fb {
-  background-color: #3B5998; }
-  .home-fb:hover {
-    background-color: #2d4373; }
-
-.home-tw {
-  background-color: #55acee; }
-  .home-tw:hover {
-    background-color: #2795e9; }
+.social-twitter, .social-facebook {
+  text-align: center;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%; }
+  .social-twitter:last-child, .social-facebook:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    .social-twitter, .social-facebook {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%; }
+      .social-twitter:last-child, .social-facebook:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 600px) {
+    .social-twitter, .social-facebook {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%;
+      text-align: center;
+      padding: 10px 15px;
+      width: 100%; }
+      .social-twitter:last-child, .social-facebook:last-child {
+        margin-right: 0; } }
 
 .body-column {
   padding: 20px 10px; }
@@ -1317,56 +1292,6 @@ footer {
   #read-more:hover {
     background-color: #a41117;
     color: #fff; }
-
-@media screen and (min-width: 769px) {
-  .social-container {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
-    .social-container:last-child {
-      margin-right: 0; } }
-
-@media screen and (min-width: 601px) and (max-width: 768px) {
-  .social-container {
-    float: left;
-    display: block;
-    margin-right: 3.57866%;
-    width: 100%;
-    width: 100%;
-    padding-top: 20px; }
-    .social-container:last-child {
-      margin-right: 0; } }
-
-#facebook, #twitter {
-  text-align: center;
-  padding: 10px 15px;
-    padding-width: 100%; }
-  @media screen and (min-width: 769px) {
-    #facebook, #twitter {
-      float: left;
-      display: block;
-      margin-right: 3.57866%;
-      width: 48.21067%; }
-      #facebook:last-child, #twitter:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 601px) and (max-width: 768px) {
-    #facebook, #twitter {
-      float: left;
-      display: block;
-      margin-right: 3.57866%;
-      width: 48.21067%; }
-      #facebook:last-child, #twitter:last-child {
-        margin-right: 0; } }
-  @media screen and (max-width: 600px) {
-    #facebook, #twitter {
-      float: left;
-      display: block;
-      margin-right: 7.42297%;
-      width: 100%;
-      text-align: center; }
-      #facebook:last-child, #twitter:last-child {
-        margin-right: 0; } }
 
 .post-container {
   max-width: 85.625em;
